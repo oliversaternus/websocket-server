@@ -61,7 +61,7 @@ io.on("connection", async (socket) => {
 });
 
 mongo.prepare().then(async () => {
-    server.listen(4143, () => {
-        console.log(`server started at http://localhost:4143`);
+    server.listen(8585, () => {
+        console.log(`server started at http://localhost:8585`);
     });
 });
