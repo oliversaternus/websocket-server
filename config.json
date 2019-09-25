@@ -1,1 +1,50 @@
-{"secret":"LAaqBhsk6DBVA9f3K23vvwAr","encryptionKey":"hHxoqoVNEvA11loqkFI8cqNL1Zb3CLqb","wsKey":"hhlW5NgMkN0qIch8Xj0Vwbo7","superAdmin":{"_id":null,"name":"superUser","access":"super","password":"WdCWpLdI6fo7Qy0pQf6xZVIL","sessionTokens":[]},"email":{"adress":"","password":"","server":"","port":""}}
+{
+    "secret": "LAaqBhsk6DBVA9f3K23vvwAr",
+    "encryptionKey": "hHxoqoVNEvA11loqkFI8cqNL1Zb3CLqb",
+    "wsKey": "hhlW5NgMkN0qIch8Xj0Vwbo7",
+    "adresses": {
+        "emailServer": {
+            "protocol": "https",
+            "host": "localhost",
+            "port": 8787
+        },
+        "staticServer": {
+            "protocol": "https",
+            "host": "localhost",
+            "port": 8989
+        },
+        "fileServer": {
+            "protocol": "https",
+            "host": "localhost",
+            "port": 8888
+        },
+        "apiServer": {
+            "protocol": "https",
+            "host": "localhost",
+            "port": 8080
+        },
+        "streamingServer": {
+            "protocol": "https",
+            "host": "localhost",
+            "port": 8686
+        },
+        "websocketServer": {
+            "protocol": "https",
+            "host": "localhost",
+            "port": 8585
+        }
+    },
+    "superAdmin": {
+        "_id": null,
+        "name": "superAdmin",
+        "access": "super",
+        "password": "WdCWpLdI6fo7Qy0pQf6xZVIL",
+        "sessionTokens": []
+    },
+    "email": {
+        "adress": "XXX",
+        "password": "XXX",
+        "host": "XXX",
+        "port": 465
+    }
+}
